@@ -1,0 +1,136 @@
+body {
+  background-image: url("bcd.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f4f4f4;
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(198, 193, 193, 0.715);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #b51717f7;
+}
+
+h2 {
+  color: #24496e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit {
+  padding: 12px;
+  width:205px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 200px;
+  transition: background-color 0.3s;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #a9a3ac;
+  color: white;
+}
+tr{
+  background-color: rgb(186, 199, 210);
+  
+}
+/* tr:nth-child(even) {
+  background-color: rgb(162, 177, 189);
+} */
+
+tr:hover {
+  background-color: #8ca2b8;
+}
+
+.EditBut{
+  background-color: #969c42;
+  padding: 12px;
+  width:50px;
+  height:40px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px 0;
+  transition: background-color 0.3s;
+
+}
+.EditBut:hover{
+  background-color: rgb(205, 234, 44);
+}
+.DelBut{
+  background-color: #dd3737;
+  margin-left: 10px;
+  padding: 12px;
+  width:70px;
+  height:40px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.DelBut:hover{
+  background-color: #780a0a;
+
+}
+@media (max-width: 600px) {
+  .app {
+    padding: 15px;
+  }
+
+  form input, button {
+    width: 100%;
+  }
+}
